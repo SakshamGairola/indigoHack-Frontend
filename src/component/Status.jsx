@@ -9,7 +9,9 @@ function Status() {
 		const fetchData = async () => {
 			const response = await fetch('http://localhost:8080/check-status');
 			const { airportQueryResult } = await response.json();
-			setFlightStatuses(airportQueryResult);
+      if(airportQueryResult.length){
+        setFlightStatuses(airportQueryResult);
+      }
 		};
 		fetchData();
 	}, []);
