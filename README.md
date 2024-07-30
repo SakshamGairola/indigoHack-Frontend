@@ -1,5 +1,9 @@
 # How to run this application
 
+## About
+
+This React app shows information about flights such as their running status, arrival and departure time, gates etc.
+
 ## IMORTANT
 
 This project depends upon a back that needs to be running first see the following git repository to setup the backend
