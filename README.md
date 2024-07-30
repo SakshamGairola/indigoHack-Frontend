@@ -1,8 +1,22 @@
-# React + Vite
+# How to run this application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## IMORTANT
 
-Currently, two official plugins are available:
+This project depends upon a back that needs to be running first see the following git repository to setup the backend
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+`https://github.com/SakshamGairola/indigoHack-Backend`
+
+# Pull codebase from github
+
+`https://github.com/SakshamGairola/indigoHack-Frontend.git`
+
+## In root directory run:
+
+```
+npm  install
+npm run dev
+```
+
+The server will start on
+
+`http://localhost:5173`
